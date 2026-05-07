@@ -248,13 +248,13 @@
     "description": "Premium noise-cancelling wireless headphones with 30-hour battery life. Features active noise cancellation, comfortable over-ear design, and crystal-clear audio quality.",
     "price": "79.99",
     "stock": 50,
-    "image": "products/headphones.jpg",
+    "image": "products/wireless-bluetooth-headphones",
     "category": 4,
     "featured": true,
     "rating": "4.50",
     "reviews_count": 2341,
     "created_at": "2026-05-06T17:03:14.463Z",
-    "updated_at": "2026-05-07T06:37:07.272Z"
+    "updated_at": "2026-05-07T10:31:16.781Z"
   }
 },
 {
@@ -266,13 +266,13 @@
     "description": "Track your health and fitness goals with this advanced smartwatch. Heart rate monitoring, GPS tracking, sleep analysis, and 7-day battery life.",
     "price": "199.99",
     "stock": 30,
-    "image": "products/watch.jpg",
+    "image": "products/smart-fitness-watch",
     "category": 1,
     "featured": true,
     "rating": "4.30",
     "reviews_count": 1876,
     "created_at": "2026-05-06T17:03:14.471Z",
-    "updated_at": "2026-05-07T06:37:07.269Z"
+    "updated_at": "2026-05-07T10:31:16.049Z"
   }
 },
 {
@@ -284,13 +284,13 @@
     "description": "Comfortable and sustainable 100% organic cotton t-shirt. Available in multiple colors. Soft, breathable, and eco-friendly.",
     "price": "29.99",
     "stock": 200,
-    "image": "products/tshirt.jpg",
+    "image": "products/organic-cotton-t-shirt",
     "category": 5,
     "featured": true,
     "rating": "4.70",
     "reviews_count": 3420,
     "created_at": "2026-05-06T17:03:14.476Z",
-    "updated_at": "2026-05-07T06:37:07.265Z"
+    "updated_at": "2026-05-07T10:31:15.337Z"
   }
 },
 {
@@ -302,13 +302,13 @@
     "description": "A comprehensive guide to modern software development practices. Covers algorithms, design patterns, and best practices for writing clean, maintainable code.",
     "price": "39.99",
     "stock": 100,
-    "image": "products/book.jpg",
+    "image": "products/the-art-of-programming",
     "category": 13,
     "featured": true,
     "rating": "4.80",
     "reviews_count": 892,
     "created_at": "2026-05-06T17:03:14.481Z",
-    "updated_at": "2026-05-07T06:37:07.261Z"
+    "updated_at": "2026-05-07T10:31:14.643Z"
   }
 },
 {
@@ -320,13 +320,13 @@
     "description": "Extra thick, non-slip yoga mat perfect for all types of exercise. Made from eco-friendly TPE material with alignment markings.",
     "price": "49.99",
     "stock": 75,
-    "image": "products/yogamat.jpg",
+    "image": "products/premium-yoga-mat",
     "category": 17,
     "featured": true,
     "rating": "4.60",
     "reviews_count": 1567,
     "created_at": "2026-05-06T17:03:14.488Z",
-    "updated_at": "2026-05-07T06:37:07.256Z"
+    "updated_at": "2026-05-07T10:31:13.796Z"
   }
 },
 {
@@ -338,13 +338,13 @@
     "description": "Set of 4 handmade ceramic coffee mugs. Microwave and dishwasher safe. Each holds 12oz. Available in earth tone colors.",
     "price": "34.99",
     "stock": 60,
-    "image": "products/mug.jpg",
+    "image": "products/ceramic-coffee-mug-set",
     "category": 12,
     "featured": true,
     "rating": "4.40",
     "reviews_count": 987,
     "created_at": "2026-05-06T17:03:14.495Z",
-    "updated_at": "2026-05-07T06:37:07.252Z"
+    "updated_at": "2026-05-07T10:31:13.115Z"
   }
 },
 {
@@ -356,13 +356,13 @@
     "description": "Waterproof portable speaker with 360° surround sound. 12-hour battery life, built-in microphone, and compact design.",
     "price": "59.99",
     "stock": 40,
-    "image": "products/speaker.jpg",
+    "image": "products/portable-bluetooth-speaker",
     "category": 1,
     "featured": true,
     "rating": "4.20",
     "reviews_count": 2156,
     "created_at": "2026-05-06T17:03:14.501Z",
-    "updated_at": "2026-05-07T06:37:07.248Z"
+    "updated_at": "2026-05-07T10:31:12.387Z"
   }
 },
 {
@@ -374,13 +374,13 @@
     "description": "RGB mechanical keyboard with Cherry MX switches. Full-size layout with programmable keys, detachable wrist rest, and USB-C connection.",
     "price": "129.99",
     "stock": 25,
-    "image": "products/keyboard.jpg",
+    "image": "products/mechanical-keyboard",
     "category": 1,
     "featured": true,
     "rating": "4.70",
     "reviews_count": 1432,
     "created_at": "2026-05-06T17:03:14.508Z",
-    "updated_at": "2026-05-07T06:37:07.243Z"
+    "updated_at": "2026-05-07T10:31:11.599Z"
   }
 },
 {
@@ -392,13 +392,13 @@
     "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper. Perfect for daily training and long-distance running.",
     "price": "119.99",
     "stock": 45,
-    "image": "products/shoes.jpg",
+    "image": "products/running-shoes-pro",
     "category": 17,
     "featured": false,
     "rating": "4.10",
     "reviews_count": 678,
     "created_at": "2026-05-06T17:03:14.516Z",
-    "updated_at": "2026-05-07T06:37:07.239Z"
+    "updated_at": "2026-05-07T10:31:10.853Z"
   }
 },
 {
@@ -410,13 +410,13 @@
     "description": "Modern LED desk lamp with adjustable brightness and color temperature. Touch control, USB charging port, and sleek aluminum design.",
     "price": "44.99",
     "stock": 80,
-    "image": "products/lamp.jpg",
+    "image": "products/minimalist-desk-lamp",
     "category": 10,
     "featured": false,
     "rating": "4.30",
     "reviews_count": 543,
     "created_at": "2026-05-06T17:03:14.523Z",
-    "updated_at": "2026-05-07T06:37:07.235Z"
+    "updated_at": "2026-05-07T10:31:10.141Z"
   }
 },
 {
@@ -428,13 +428,13 @@
     "description": "Award-winning strategy board game for 2-6 players. Easy to learn, hard to master. Includes 200+ cards, game board, and detailed rulebook.",
     "price": "54.99",
     "stock": 35,
-    "image": "products/boardgame.jpg",
+    "image": "products/strategy-board-game-collection",
     "category": 22,
     "featured": false,
     "rating": "4.90",
     "reviews_count": 1234,
     "created_at": "2026-05-06T17:03:14.530Z",
-    "updated_at": "2026-05-07T06:37:07.230Z"
+    "updated_at": "2026-05-07T10:31:09.250Z"
   }
 },
 {
@@ -446,13 +446,13 @@
     "description": "Double-wall vacuum insulated water bottle. Keeps drinks cold for 24 hours or hot for 12 hours. BPA-free, leak-proof lid.",
     "price": "24.99",
     "stock": 150,
-    "image": "products/waterbottle.jpg",
+    "image": "products/stainless-steel-water-bottle",
     "category": 17,
     "featured": false,
     "rating": "4.50",
     "reviews_count": 4521,
     "created_at": "2026-05-06T17:03:14.539Z",
-    "updated_at": "2026-05-07T06:37:07.227Z"
+    "updated_at": "2026-05-07T10:31:08.431Z"
   }
 },
 {
@@ -464,13 +464,13 @@
     "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Slim design with LED indicator and built-in safety features.",
     "price": "19.99",
     "stock": 100,
-    "image": "products/charger.jpg",
+    "image": "products/wireless-charging-pad",
     "category": 1,
     "featured": false,
     "rating": "4.00",
     "reviews_count": 876,
     "created_at": "2026-05-06T17:03:14.546Z",
-    "updated_at": "2026-05-07T06:37:07.223Z"
+    "updated_at": "2026-05-07T10:31:07.695Z"
   }
 },
 {
@@ -482,13 +482,13 @@
     "description": "Collection of 5 bestselling science fiction novels. Explore distant galaxies, AI civilizations, and time travel adventures.",
     "price": "64.99",
     "stock": 40,
-    "image": "products/scifibook.jpg",
+    "image": "products/science-fiction-novel-set",
     "category": 14,
     "featured": false,
     "rating": "4.60",
     "reviews_count": 345,
     "created_at": "2026-05-06T17:03:14.554Z",
-    "updated_at": "2026-05-07T06:37:07.219Z"
+    "updated_at": "2026-05-07T10:31:06.989Z"
   }
 },
 {
@@ -500,13 +500,13 @@
     "description": "Complete indoor gardening kit with 3 succulent plants, decorative pots, soil, and care guide. Perfect for beginners.",
     "price": "39.99",
     "stock": 55,
-    "image": "products/plant.jpg",
+    "image": "products/indoor-plant-kit",
     "category": 11,
     "featured": false,
     "rating": "4.40",
     "reviews_count": 765,
     "created_at": "2026-05-06T17:03:14.561Z",
-    "updated_at": "2026-05-07T06:37:07.212Z"
+    "updated_at": "2026-05-07T10:31:06.386Z"
   }
 },
 {
@@ -518,13 +518,13 @@
     "description": "Handcrafted genuine leather journal with 200 pages of acid-free paper. Perfect for writing, sketching, or bullet journaling.",
     "price": "27.99",
     "stock": 90,
-    "image": "products/journal.jpg",
+    "image": "products/leather-journal-notebook",
     "category": 13,
     "featured": false,
     "rating": "4.80",
     "reviews_count": 1102,
     "created_at": "2026-05-06T17:03:14.567Z",
-    "updated_at": "2026-05-07T06:37:07.168Z"
+    "updated_at": "2026-05-07T10:31:05.736Z"
   }
 },
 {
@@ -536,13 +536,13 @@
     "description": "Baby boy shower gift Teddy Bear In Blue Pajamas Teddy Cute Teddy Great Gift Plush teddy Gift for newborn New mom gift Congratulations baby",
     "price": "27.99",
     "stock": 20,
-    "image": "products/Baby_boy_shower_gift.jpg",
+    "image": "products/baby-boy-shower",
     "category": 21,
     "featured": true,
     "rating": "4.50",
     "reviews_count": 100,
     "created_at": "2026-05-07T06:47:47.302Z",
-    "updated_at": "2026-05-07T06:47:47.302Z"
+    "updated_at": "2026-05-07T10:31:04.913Z"
   }
 },
 {
@@ -554,13 +554,13 @@
     "description": "LotFancy 20 inch Teddy Bear Stuffed Animals, Soft Cuddly Stuffed Plush Bear, Cute Stuffed Animals Toy with Footprints, Gifts for Kids Baby Toddlers on Baby Shower, Birthday, Easter, Tan Color : Everything Else",
     "price": "99.99",
     "stock": 49,
-    "image": "products/Teddy_Bear.jpg",
+    "image": "products/teddy-bear",
     "category": 21,
     "featured": true,
     "rating": "4.80",
     "reviews_count": 50,
     "created_at": "2026-05-07T06:52:12.728Z",
-    "updated_at": "2026-05-07T06:52:12.728Z"
+    "updated_at": "2026-05-07T10:31:04.213Z"
   }
 },
 {
@@ -572,13 +572,13 @@
     "description": "Support your toddler’s growth with toys that do more than entertain 🌿🧸 These Montessori-friendly toys boost fine motor skills, encourage imagination, and promote problem-solving—all while keeping little hands busy.",
     "price": "40.99",
     "stock": 49,
-    "image": "products/Kids_items.jpg",
+    "image": "products/kids_item",
     "category": 21,
     "featured": true,
     "rating": "4.90",
     "reviews_count": 1500,
     "created_at": "2026-05-07T06:54:42.812Z",
-    "updated_at": "2026-05-07T07:04:20.251Z"
+    "updated_at": "2026-05-07T10:31:03.390Z"
   }
 }
 ]
