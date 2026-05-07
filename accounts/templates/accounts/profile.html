@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}My Profile{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <h1 class="text-2xl font-bold text-gray-800 mb-6">👤 My Profile</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Profile Form -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4">Edit Profile</h2>
+            <form method="post">
+                {% csrf_token %}
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                        {{ form.first_name }}
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                        {{ form.last_name }}
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                        {{ form.email }}
+                    </div>
+                    <button type="submit"
+                            class="w-full bg-indigo-600 text-white py-2 rounded-lg font-semibold hover:bg-indigo-700 transition">
+                        Save Changes
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Recent Orders -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4">Recent Orders</h2>
+            {% if orders %}
+            <div class="space-y-3">
+                {% for order in orders %}
+                <a href="{% url 'orders:order_detail' order.id %}"
+                   class="block p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition">
+                    <div class="flex justify-between">
+                        <span class="text-sm font-semibold text-gray-800">Order #{{ order.id }}</span>
+                        <span class="text-sm font-semibold text-indigo-600">${{ order.total }}</span>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-1">{{ order.created_at|date:"M d, Y" }} — {{ order.status|title }}</p>
+                </a>
+                {% endfor %}
+            </div>
+            <a href="{% url 'orders:order_list' %}" class="block text-sm text-indigo-600 hover:underline mt-4">
+                View All Orders →
+            </a>
+            {% else %}
+            <p class="text-gray-500 text-sm">No orders yet.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

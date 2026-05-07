@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Order Confirmed{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+        <span class="text-6xl block mb-4">🎉</span>
+        <h1 class="text-3xl font-bold text-gray-800 mb-2">Order Confirmed!</h1>
+        <p class="text-gray-500 mb-6">Thank you for your purchase.</p>
+
+        <div class="bg-gray-50 rounded-lg p-6 mb-6 text-left">
+            <div class="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                    <p class="text-gray-500">Order Number</p>
+                    <p class="font-semibold text-gray-800">#{{ order.id }}</p>
+                </div>
+                <div>
+                    <p class="text-gray-500">Status</p>
+                    <p class="font-semibold text-gray-800 capitalize">{{ order.status }}</p>
+                </div>
+                <div>
+                    <p class="text-gray-500">Total</p>
+                    <p class="font-semibold text-indigo-600">${{ order.total }}</p>
+                </div>
+                <div>
+                    <p class="text-gray-500">Date</p>
+                    <p class="font-semibold text-gray-800">{{ order.created_at|date:"M d, Y" }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-6 mb-6 text-left">
+            <h3 class="font-semibold text-gray-800 mb-3">Order Items</h3>
+            {% for item in order.items.all %}
+            <div class="flex justify-between py-2 border-b border-gray-200 last:border-0">
+                <span class="text-gray-600">{{ item.product.name }} × {{ item.quantity }}</span>
+                <span class="text-gray-800 font-semibold">${{ item.subtotal }}</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="space-x-4">
+            <a href="{% url 'orders:order_detail' order.id %}"
+               class="inline-block bg-indigo-600 text-white px-6 py-2.5 rounded-lg hover:bg-indigo-700 transition">
+                View Order Details
+            </a>
+            <a href="{% url 'products:product_list' %}"
+               class="inline-block bg-gray-100 text-gray-700 px-6 py-2.5 rounded-lg hover:bg-gray-200 transition">
+                Continue Shopping
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

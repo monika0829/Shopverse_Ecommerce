@@ -1,0 +1,50 @@
+{% load product_extras %}
+<div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-200 group">
+    <a href="{{ product.get_absolute_url }}" class="block relative overflow-hidden">
+        {% if product.image %}
+        <img src="{{ product.image.url }}" alt="{{ product.name }}"
+             class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+        {% else %}
+        <div class="w-full h-56 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
+            <span class="text-5xl opacity-40">📦</span>
+        </div>
+        {% endif %}
+        {% if product.featured %}
+        <span class="absolute top-2 left-2 bg-amber-500 text-white text-xs font-bold px-2 py-0.5 rounded-md shadow">⭐ Featured</span>
+        {% endif %}
+    </a>
+    <div class="p-4">
+        <!-- Rating -->
+        <div class="flex items-center gap-1 mb-1">
+            <span class="text-amber-500 text-sm tracking-tight">{{ product.rating|star_rating }}</span>
+            <span class="text-xs text-gray-400">{{ product.rating }}</span>
+            <a href="{{ product.get_absolute_url }}#reviews" class="text-xs text-sky-600 hover:text-sky-700 hover:underline ml-1">
+                ({{ product.reviews_count|format_reviews }})
+            </a>
+        </div>
+
+        <a href="{{ product.get_absolute_url }}" class="text-gray-800 font-semibold hover:text-indigo-600 line-clamp-2 leading-tight">
+            {{ product.name|truncatechars:55 }}
+        </a>
+        <p class="text-xs text-gray-400 mt-1">{{ product.category.name }}</p>
+
+        <div class="flex justify-between items-center mt-3">
+            <span class="text-xl font-bold text-gray-900">${{ product.price }}</span>
+            {% if product.in_stock %}
+            <span class="text-xs bg-green-50 text-green-700 px-2 py-1 rounded-full font-medium">In Stock</span>
+            {% else %}
+            <span class="text-xs bg-red-50 text-red-600 px-2 py-1 rounded-full font-medium">Out of Stock</span>
+            {% endif %}
+        </div>
+
+        {% if product.in_stock %}
+        <form method="post" action="{% url 'cart:add_to_cart' product.id %}" class="mt-3">
+            {% csrf_token %}
+            <button type="submit"
+                    class="w-full bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold py-2 rounded-lg transition shadow-sm">
+                🛒 Add to Cart
+            </button>
+        </form>
+        {% endif %}
+    </div>
+</div>
