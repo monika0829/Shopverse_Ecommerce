@@ -1,0 +1,1 @@
+web: gunicorn shopverse.wsgi --log-file -

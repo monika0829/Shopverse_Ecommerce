@@ -10,7 +10,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Env loading
 from dotenv import load_dotenv
 load_dotenv(BASE_DIR / '.env')
-
+# Production settings
+import dj_database_url
+if os.environ.get('DATABASE_URL'):
+    DATABASES['default'] = dj_database_url.parse(os.environ.get('DATABASE_URL'))
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-dev-key-change-in-production')
 
 DEBUG = os.environ.get('DEBUG', 'True').lower() in ('true', '1', 'yes')
