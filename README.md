@@ -7,13 +7,13 @@ A full-featured ecommerce web application built with Django, featuring product l
 ##  Screenshots
 
 ###  Home Page — Featured Products
-![Home Page](current-homepage.png)
+![Home Page](Screenshots/current-homepage.png)
 
 ###  All Products Page
-![Products Page](products.png)
+![Products Page](Screenshots/products.png)
 
 ###  Product Detail
-![Product Detail](product-detail.png)
+![Product Detail](Screenshots/product_detail.png)
 
 ---
 
