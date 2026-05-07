@@ -1,0 +1,584 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Electronics",
+    "slug": "electronics",
+    "parent": null,
+    "created_at": "2026-05-06T17:03:14.371Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "parent": 1,
+    "created_at": "2026-05-06T17:03:14.376Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Laptops",
+    "slug": "laptops",
+    "parent": 1,
+    "created_at": "2026-05-06T17:03:14.381Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Headphones",
+    "slug": "headphones",
+    "parent": 1,
+    "created_at": "2026-05-06T17:03:14.384Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Clothing",
+    "slug": "clothing",
+    "parent": null,
+    "created_at": "2026-05-06T17:03:14.391Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "Men",
+    "slug": "men",
+    "parent": 5,
+    "created_at": "2026-05-06T17:03:14.396Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "name": "Women",
+    "slug": "women",
+    "parent": 5,
+    "created_at": "2026-05-06T17:03:14.399Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "name": "Kids",
+    "slug": "kids",
+    "parent": 5,
+    "created_at": "2026-05-06T17:03:14.404Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 9,
+  "fields": {
+    "name": "Home & Garden",
+    "slug": "home-garden",
+    "parent": null,
+    "created_at": "2026-05-06T17:03:14.408Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "name": "Furniture",
+    "slug": "furniture",
+    "parent": 9,
+    "created_at": "2026-05-06T17:03:14.411Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 11,
+  "fields": {
+    "name": "Decor",
+    "slug": "decor",
+    "parent": 9,
+    "created_at": "2026-05-06T17:03:14.414Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 12,
+  "fields": {
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "parent": 9,
+    "created_at": "2026-05-06T17:03:14.417Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 13,
+  "fields": {
+    "name": "Books",
+    "slug": "books",
+    "parent": null,
+    "created_at": "2026-05-06T17:03:14.422Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 14,
+  "fields": {
+    "name": "Fiction",
+    "slug": "fiction",
+    "parent": 13,
+    "created_at": "2026-05-06T17:03:14.425Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 15,
+  "fields": {
+    "name": "Non-Fiction",
+    "slug": "non-fiction",
+    "parent": 13,
+    "created_at": "2026-05-06T17:03:14.427Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 16,
+  "fields": {
+    "name": "Technical",
+    "slug": "technical",
+    "parent": 13,
+    "created_at": "2026-05-06T17:03:14.430Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 17,
+  "fields": {
+    "name": "Sports",
+    "slug": "sports",
+    "parent": null,
+    "created_at": "2026-05-06T17:03:14.432Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 18,
+  "fields": {
+    "name": "Fitness",
+    "slug": "fitness",
+    "parent": 17,
+    "created_at": "2026-05-06T17:03:14.436Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 19,
+  "fields": {
+    "name": "Outdoor",
+    "slug": "outdoor",
+    "parent": 17,
+    "created_at": "2026-05-06T17:03:14.440Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 20,
+  "fields": {
+    "name": "Team Sports",
+    "slug": "team-sports",
+    "parent": 17,
+    "created_at": "2026-05-06T17:03:14.443Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 21,
+  "fields": {
+    "name": "Toys & Games",
+    "slug": "toys-games",
+    "parent": null,
+    "created_at": "2026-05-06T17:03:14.446Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 22,
+  "fields": {
+    "name": "Board Games",
+    "slug": "board-games",
+    "parent": 21,
+    "created_at": "2026-05-06T17:03:14.449Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 23,
+  "fields": {
+    "name": "Action Figures",
+    "slug": "action-figures",
+    "parent": 21,
+    "created_at": "2026-05-06T17:03:14.453Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 24,
+  "fields": {
+    "name": "Educational",
+    "slug": "educational",
+    "parent": 21,
+    "created_at": "2026-05-06T17:03:14.458Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Wireless Bluetooth Headphones",
+    "slug": "wireless-bluetooth-headphones",
+    "description": "Premium noise-cancelling wireless headphones with 30-hour battery life. Features active noise cancellation, comfortable over-ear design, and crystal-clear audio quality.",
+    "price": "79.99",
+    "stock": 50,
+    "image": "products/headphones.jpg",
+    "category": 4,
+    "featured": true,
+    "rating": "4.50",
+    "reviews_count": 2341,
+    "created_at": "2026-05-06T17:03:14.463Z",
+    "updated_at": "2026-05-07T06:37:07.272Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Smart Fitness Watch",
+    "slug": "smart-fitness-watch",
+    "description": "Track your health and fitness goals with this advanced smartwatch. Heart rate monitoring, GPS tracking, sleep analysis, and 7-day battery life.",
+    "price": "199.99",
+    "stock": 30,
+    "image": "products/watch.jpg",
+    "category": 1,
+    "featured": true,
+    "rating": "4.30",
+    "reviews_count": 1876,
+    "created_at": "2026-05-06T17:03:14.471Z",
+    "updated_at": "2026-05-07T06:37:07.269Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Organic Cotton T-Shirt",
+    "slug": "organic-cotton-t-shirt",
+    "description": "Comfortable and sustainable 100% organic cotton t-shirt. Available in multiple colors. Soft, breathable, and eco-friendly.",
+    "price": "29.99",
+    "stock": 200,
+    "image": "products/tshirt.jpg",
+    "category": 5,
+    "featured": true,
+    "rating": "4.70",
+    "reviews_count": 3420,
+    "created_at": "2026-05-06T17:03:14.476Z",
+    "updated_at": "2026-05-07T06:37:07.265Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "The Art of Programming",
+    "slug": "the-art-of-programming",
+    "description": "A comprehensive guide to modern software development practices. Covers algorithms, design patterns, and best practices for writing clean, maintainable code.",
+    "price": "39.99",
+    "stock": 100,
+    "image": "products/book.jpg",
+    "category": 13,
+    "featured": true,
+    "rating": "4.80",
+    "reviews_count": 892,
+    "created_at": "2026-05-06T17:03:14.481Z",
+    "updated_at": "2026-05-07T06:37:07.261Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Premium Yoga Mat",
+    "slug": "premium-yoga-mat",
+    "description": "Extra thick, non-slip yoga mat perfect for all types of exercise. Made from eco-friendly TPE material with alignment markings.",
+    "price": "49.99",
+    "stock": 75,
+    "image": "products/yogamat.jpg",
+    "category": 17,
+    "featured": true,
+    "rating": "4.60",
+    "reviews_count": 1567,
+    "created_at": "2026-05-06T17:03:14.488Z",
+    "updated_at": "2026-05-07T06:37:07.256Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Ceramic Coffee Mug Set",
+    "slug": "ceramic-coffee-mug-set",
+    "description": "Set of 4 handmade ceramic coffee mugs. Microwave and dishwasher safe. Each holds 12oz. Available in earth tone colors.",
+    "price": "34.99",
+    "stock": 60,
+    "image": "products/mug.jpg",
+    "category": 12,
+    "featured": true,
+    "rating": "4.40",
+    "reviews_count": 987,
+    "created_at": "2026-05-06T17:03:14.495Z",
+    "updated_at": "2026-05-07T06:37:07.252Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Portable Bluetooth Speaker",
+    "slug": "portable-bluetooth-speaker",
+    "description": "Waterproof portable speaker with 360° surround sound. 12-hour battery life, built-in microphone, and compact design.",
+    "price": "59.99",
+    "stock": 40,
+    "image": "products/speaker.jpg",
+    "category": 1,
+    "featured": true,
+    "rating": "4.20",
+    "reviews_count": 2156,
+    "created_at": "2026-05-06T17:03:14.501Z",
+    "updated_at": "2026-05-07T06:37:07.248Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Mechanical Keyboard",
+    "slug": "mechanical-keyboard",
+    "description": "RGB mechanical keyboard with Cherry MX switches. Full-size layout with programmable keys, detachable wrist rest, and USB-C connection.",
+    "price": "129.99",
+    "stock": 25,
+    "image": "products/keyboard.jpg",
+    "category": 1,
+    "featured": true,
+    "rating": "4.70",
+    "reviews_count": 1432,
+    "created_at": "2026-05-06T17:03:14.508Z",
+    "updated_at": "2026-05-07T06:37:07.243Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Running Shoes Pro",
+    "slug": "running-shoes-pro",
+    "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper. Perfect for daily training and long-distance running.",
+    "price": "119.99",
+    "stock": 45,
+    "image": "products/shoes.jpg",
+    "category": 17,
+    "featured": false,
+    "rating": "4.10",
+    "reviews_count": 678,
+    "created_at": "2026-05-06T17:03:14.516Z",
+    "updated_at": "2026-05-07T06:37:07.239Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Minimalist Desk Lamp",
+    "slug": "minimalist-desk-lamp",
+    "description": "Modern LED desk lamp with adjustable brightness and color temperature. Touch control, USB charging port, and sleek aluminum design.",
+    "price": "44.99",
+    "stock": 80,
+    "image": "products/lamp.jpg",
+    "category": 10,
+    "featured": false,
+    "rating": "4.30",
+    "reviews_count": 543,
+    "created_at": "2026-05-06T17:03:14.523Z",
+    "updated_at": "2026-05-07T06:37:07.235Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Strategy Board Game Collection",
+    "slug": "strategy-board-game-collection",
+    "description": "Award-winning strategy board game for 2-6 players. Easy to learn, hard to master. Includes 200+ cards, game board, and detailed rulebook.",
+    "price": "54.99",
+    "stock": 35,
+    "image": "products/boardgame.jpg",
+    "category": 22,
+    "featured": false,
+    "rating": "4.90",
+    "reviews_count": 1234,
+    "created_at": "2026-05-06T17:03:14.530Z",
+    "updated_at": "2026-05-07T06:37:07.230Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Stainless Steel Water Bottle",
+    "slug": "stainless-steel-water-bottle",
+    "description": "Double-wall vacuum insulated water bottle. Keeps drinks cold for 24 hours or hot for 12 hours. BPA-free, leak-proof lid.",
+    "price": "24.99",
+    "stock": 150,
+    "image": "products/waterbottle.jpg",
+    "category": 17,
+    "featured": false,
+    "rating": "4.50",
+    "reviews_count": 4521,
+    "created_at": "2026-05-06T17:03:14.539Z",
+    "updated_at": "2026-05-07T06:37:07.227Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Wireless Charging Pad",
+    "slug": "wireless-charging-pad",
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Slim design with LED indicator and built-in safety features.",
+    "price": "19.99",
+    "stock": 100,
+    "image": "products/charger.jpg",
+    "category": 1,
+    "featured": false,
+    "rating": "4.00",
+    "reviews_count": 876,
+    "created_at": "2026-05-06T17:03:14.546Z",
+    "updated_at": "2026-05-07T06:37:07.223Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Science Fiction Novel Set",
+    "slug": "science-fiction-novel-set",
+    "description": "Collection of 5 bestselling science fiction novels. Explore distant galaxies, AI civilizations, and time travel adventures.",
+    "price": "64.99",
+    "stock": 40,
+    "image": "products/scifibook.jpg",
+    "category": 14,
+    "featured": false,
+    "rating": "4.60",
+    "reviews_count": 345,
+    "created_at": "2026-05-06T17:03:14.554Z",
+    "updated_at": "2026-05-07T06:37:07.219Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Indoor Plant Kit",
+    "slug": "indoor-plant-kit",
+    "description": "Complete indoor gardening kit with 3 succulent plants, decorative pots, soil, and care guide. Perfect for beginners.",
+    "price": "39.99",
+    "stock": 55,
+    "image": "products/plant.jpg",
+    "category": 11,
+    "featured": false,
+    "rating": "4.40",
+    "reviews_count": 765,
+    "created_at": "2026-05-06T17:03:14.561Z",
+    "updated_at": "2026-05-07T06:37:07.212Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Leather Journal Notebook",
+    "slug": "leather-journal-notebook",
+    "description": "Handcrafted genuine leather journal with 200 pages of acid-free paper. Perfect for writing, sketching, or bullet journaling.",
+    "price": "27.99",
+    "stock": 90,
+    "image": "products/journal.jpg",
+    "category": 13,
+    "featured": false,
+    "rating": "4.80",
+    "reviews_count": 1102,
+    "created_at": "2026-05-06T17:03:14.567Z",
+    "updated_at": "2026-05-07T06:37:07.168Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Baby boy shower",
+    "slug": "baby-boy-shower",
+    "description": "Baby boy shower gift Teddy Bear In Blue Pajamas Teddy Cute Teddy Great Gift Plush teddy Gift for newborn New mom gift Congratulations baby",
+    "price": "27.99",
+    "stock": 20,
+    "image": "products/Baby_boy_shower_gift.jpg",
+    "category": 21,
+    "featured": true,
+    "rating": "4.50",
+    "reviews_count": 100,
+    "created_at": "2026-05-07T06:47:47.302Z",
+    "updated_at": "2026-05-07T06:47:47.302Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Teddy Bear",
+    "slug": "teddy-bear",
+    "description": "LotFancy 20 inch Teddy Bear Stuffed Animals, Soft Cuddly Stuffed Plush Bear, Cute Stuffed Animals Toy with Footprints, Gifts for Kids Baby Toddlers on Baby Shower, Birthday, Easter, Tan Color : Everything Else",
+    "price": "99.99",
+    "stock": 49,
+    "image": "products/Teddy_Bear.jpg",
+    "category": 21,
+    "featured": true,
+    "rating": "4.80",
+    "reviews_count": 50,
+    "created_at": "2026-05-07T06:52:12.728Z",
+    "updated_at": "2026-05-07T06:52:12.728Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "Kids_Item",
+    "slug": "kids_item",
+    "description": "Support your toddler’s growth with toys that do more than entertain 🌿🧸 These Montessori-friendly toys boost fine motor skills, encourage imagination, and promote problem-solving—all while keeping little hands busy.",
+    "price": "40.99",
+    "stock": 49,
+    "image": "products/Kids_items.jpg",
+    "category": 21,
+    "featured": true,
+    "rating": "4.90",
+    "reviews_count": 1500,
+    "created_at": "2026-05-07T06:54:42.812Z",
+    "updated_at": "2026-05-07T07:04:20.251Z"
+  }
+}
+]
